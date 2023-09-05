@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.top-header {
+    height: 32px;
+    width: 100%;
+    background-color: rgb(24, 219, 112);
+    position: fixed;
+}
+
+.navbar {
+    margin-top: 32px;
+    display: flex;
+    height: 64px;
+    width: 100%;
+    background-color: rgb(9, 117, 218); 
+    position: fixed;
+}
+
+.section-header {
+    overflow: hidden;
+}
+
+
+.section-header aside{
+    position: absolute;
+    width: 25%;
+    height: 576px;  
+    background-color: rgb(9, 117, 218);
+    margin-top: 96px;
+}
+
+.section-header img {
+    display: flex;
+    float: right;
+    margin-right: 0%;
+    width: 1450px;
+    height: 576px;
+    margin-top: 96px;
+}
+
+
+section {
+    height: 700px;
+}
