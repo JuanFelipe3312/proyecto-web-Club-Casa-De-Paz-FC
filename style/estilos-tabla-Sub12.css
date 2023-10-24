@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*
+--------------------------------------------------------------
+Estilos para generales
+--------------------------------------------------------------
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'; 
+    list-style: none;
+}
+
+/*
+--------------------------------------------------------------
+Estilos para header
+--------------------------------------------------------------
+*/
+.header-navbar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(180deg, #63B846 0%, rgba(0, 41, 255, 0.83) 100%), #FFF;
+    position: fixed;
+    align-items: center;
+    z-index: 5;
+}
+
+.header-navbar img {
+    width: 100px;
+    flex-shrink: 0;
+    margin-left: 36px;
+    background: url(<path-to-image>), cover no-repeat;
+}
+
+/*
+Estilo de linea vertical en header a la derecha del logo
+*/
+.linea-vertical {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.linea-vertical span {
+    background: white;
+    width: 2px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+/*
+--------------------------------------------------------------
+Estilos para body
+--------------------------------------------------------------
+*/
+
+
+/*
+--------------------------------------------------------------
+Estilos para footer
+--------------------------------------------------------------
+*/
+
+
+
+/*
+--------------------------------------------------------------
+Estilos para dispositivos móviles
+--------------------------------------------------------------
+*/
