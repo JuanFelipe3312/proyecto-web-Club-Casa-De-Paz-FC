@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*
+--------------------------------------------------------------
+Estilos para generales
+--------------------------------------------------------------
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'; 
+    list-style: none;
+}
+
+/*
+--------------------------------------------------------------
+Estilos para header
+--------------------------------------------------------------
+*/
+/* .top_header {
+    height: 32px;
+    width: 100%;
+    background-color: rgb(48, 202, 107);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+} */
+
+.text {
+    color: #0d30a5;
+}
+
+/* .top_header img {
+    height: 30px;
+    width: 70px;
+    padding-inline-start: 12px;
+    margin-left: 20px;
+} */
+
+/* .top_header_right {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.top_header_right a {
+    text-decoration: none;
+    color: #ebf1f1;
+    margin-right: 14px;
+    margin-left: 11px;
+    font-size: 12px;
+}
+
+.top_header_right a:hover{
+    color: #000000;
+} */
+.linea-vertical {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.linea-vertical span {
+    background: white;
+    width: 2px;
+    height: 80px;
+    border-radius: 5px;
+}
+.header-navbar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(180deg, #63B846 0%, rgba(0, 41, 255, 0.83) 100%), #FFF;
+    position: fixed;
+    align-items: center;
+    z-index: 5;
+}
+
+/* .burguer {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: rgb(218, 9, 9);
+    margin: 0px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+} */
+
+/* .burguer span {
+    font-size: 10px;
+} */
+
+.header-navbar img {
+    width: 100px;
+    flex-shrink: 0;
+    margin-left: 36px;
+    background: url(<path-to-image>), cover no-repeat;
+}
+
+.section-header {
+    overflow: hidden;
+}
+
+.section-header img {
+    display: flex;
+    width: 800px;
+    height: 576px;
+    margin-top: 96px;
+    align-items: center;
+}
+
+section {
+    height: 700px;
+}
+
+/*
+--------------------------------------------------------------
+Estilos para body
+--------------------------------------------------------------
+*/
+
+
+
+/*
+--------------------------------------------------------------
+Estilos para footer
+--------------------------------------------------------------
+*/
+
+body {
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.container { 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background: linear-gradient(180deg, #63B846 0%, rgba(0, 41, 255, 0.83) 100%), #FFF;
+    padding: 80px 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #0b3feb;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #130303;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #FFFFFF;
+    padding-left: 6px;
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+
+.social-link a:hover {
+    background-color: rgb(11, 100, 216);
+}
+/*
+--------------------------------------------------------------
+Estilos para dispositivos móviles
+--------------------------------------------------------------
+*/
+@media(max-width:991px) {
+    .footer-row {
+        text-align: center;
+    }
+
+.footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+}
