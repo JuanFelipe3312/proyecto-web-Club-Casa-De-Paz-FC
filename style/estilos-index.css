@@ -28,8 +28,30 @@ Estilos para header
     z-index: 5;
 } */
 
-.text {
-    color: #0d30a5;
+.text-nombre-club {
+    text-align: center;
+    min-width: 100px;    
+    
+}
+.text-nombre-club h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+.text-nombre-club h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    
 }
 
 /* .top_header img {
