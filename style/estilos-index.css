@@ -17,41 +17,33 @@ Estilos para generales
 Estilos para header
 --------------------------------------------------------------
 */
-/* .top_header {
-    height: 32px;
-    width: 100%;
-    background-color: rgb(48, 202, 107);
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 5;
-} */
 
-/* .top_header img {
-    height: 30px;
-    width: 70px;
-    padding-inline-start: 12px;
-    margin-left: 20px;
-} */
-
-/* .top_header_right {
-    display: flex;
-    height: 100%;
-    align-items: center;
+.header-navbar .text-nombre-club {
+    text-align: center;
+    min-width: 100px;
+    margin-right: 40px;  
+    
 }
-
-.top_header_right a {
-    text-decoration: none;
-    color: #ebf1f1;
-    margin-right: 14px;
-    margin-left: 11px;
-    font-size: 12px;
-}*/
-
-/*.top_header_right a:hover{
-    color: #f5d903;
-}*/
+.header-navbar .text-nombre-club h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+.header-navbar .text-nombre-club h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
 
 .linea-vertical {
     display: flex;
@@ -74,23 +66,6 @@ Estilos para header
     z-index: 5;
 }
 
-/* .burguer {
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background-color: rgb(218, 9, 9);
-    margin: 0px 20px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    color: #fff;
-} */    
-
-/* .burguer span {
-    font-size: 10px;
-} */
-/* Título del Sitio Web*/
 .titulo {
     width: 202px;
     height: 55px;
@@ -101,7 +76,7 @@ Estilos para header
     line-height: normal;
     text-transform: uppercase;
 }
-/*Hasta aquí*/
+
 .header-navbar img {
     width: 100px;
     flex-shrink: 0;
