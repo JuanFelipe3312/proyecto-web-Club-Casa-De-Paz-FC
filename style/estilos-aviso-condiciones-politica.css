@@ -11,48 +11,30 @@ Estilos para generales
     font-family: 'Poppins'; 
     list-style: none;
 }
+/*
+--------------------------------------------------------------
+Estilos para body y container
+--------------------------------------------------------------
+*/
+body {
+    background-color: beig;
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 0 auto;
 
+}
+
+.container { 
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 60px;
+    margin-top: 120px;
+}
 /*
 --------------------------------------------------------------
 Estilos para header
 --------------------------------------------------------------
 */
-/* .top_header {
-    height: 32px;
-    width: 100%;
-    background-color: rgb(48, 202, 107);
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 5;
-} */
-
-/* .top_header img {
-    height: 30px;
-    width: 70px;
-    padding-inline-start: 12px;
-    margin-left: 20px;
-} */
-
-/* .top_header_right {
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-
-.top_header_right a {
-    text-decoration: none;
-    color: #ebf1f1;
-    margin-right: 14px;
-    margin-left: 11px;
-    font-size: 12px;
-}*/
-
-/*.top_header_right a:hover{
-    color: #f5d903;
-}*/
-
 .linea-vertical {
     display: flex;
     flex-direction: column;
@@ -64,6 +46,9 @@ Estilos para header
     height: 80px;
     border-radius: 5px;
 }
+.main {
+   padding-top: 6.2rem; 
+}
 .header-navbar {
     display: flex;
     height: 100px;
@@ -72,25 +57,10 @@ Estilos para header
     position: fixed;
     align-items: center;
     z-index: 5;
+    padding-left: 10px;
+    top: 0px;
 }
-
-/* .burguer {
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background-color: rgb(218, 9, 9);
-    margin: 0px 20px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    color: #fff;
-} */    
-
-/* .burguer span {
-    font-size: 10px;
-} */
-/* Título del Sitio Web*/
+/*Título del Sitio Web */
 .titulo {
     width: 202px;
     height: 55px;
@@ -101,7 +71,8 @@ Estilos para header
     line-height: normal;
     text-transform: uppercase;
 }
-/*Hasta aquí*/
+/*Título del Sitio Web arriba*/
+
 .header-navbar img {
     width: 100px;
     flex-shrink: 0;
@@ -123,43 +94,11 @@ Estilos para header
     color: #0af30a;
 }
 
-.section-header {
-    overflow: hidden;
-}
-
-.section-header img {
-    display: flex;
-    width: 1905px;
-    height: 576px;
-    margin-top: 96px;
-    align-items: center;
-}
-
-section {
-    height: 700px;
-}
-
-/*
---------------------------------------------------------------
-Estilos para body
--------------------------------------   -------------------------
-*/
-
-.body {
-    font-family: sans-serif;
-}
-
 /*
 --------------------------------------------------------------
 Estilos para footer
 --------------------------------------------------------------
 */
-
-
-.container { 
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .footer {
     background: linear-gradient(180deg, #63B846 0%, rgba(0, 41, 255, 0.83) 100%), #FFF;
@@ -219,10 +158,6 @@ Estilos para footer
     color: #054aea;
 }
 
-/* --------------------------------------------------------------
-Estilos para dispositivos móviles
---------------------------------------------------------------
-*/
 @media(max-width:991px) {
     .footer-row {
         text-align: center;

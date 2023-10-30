@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'; 
+    list-style: none;
+}
+
+.caja-resultados {
+    background-image: url(/img/Fondo2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1080px;
+}
+
+.titulo-fecha {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.caja-titulos {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.texto-fecha {
+    color: #000000;
+    text-align: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding-bottom: 20px;
+    width: 200px;
+    margin: auto;
+}
+
+.bandera {
+    width: 70px;
+}
+
+.content-resultado {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center ;
+    filter: opacity(0.8);
+    background: linear-gradient(90deg , rgb(87, 230, 4) 0%, rgb(15, 15, 163) 50%, rgb(87, 230, 4) 100%);    
+    border-radius: 6px;
+    margin-top: 26px;
+}
+
+.nombre {
+    color: rgb(0, 0, 0);
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin: 0px;
+}
+
+.resultado {
+    color: #ffffff;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.separacion{
+    color: #000000;
+    font-size: 25px;
+    margin: 0px;
+}
+
+/*
+--------------------------------------------------------------
+Estilos para header
+--------------------------------------------------------------
+*/
+.linea-vertical {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.linea-vertical span {
+    background: white;
+    width: 2px;
+    height: 80px;
+    border-radius: 5px;
+}
+.main {
+   padding-top: 6.2rem; 
+}
+.header-navbar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(180deg, #63B846 0%, rgba(0, 41, 255, 0.83) 100%), #FFF;
+    position: fixed;
+    align-items: center;
+    z-index: 5;
+    padding-left: 10px;
+    top: 0px;
+}
+/*Título del Sitio Web */
+.titulo {
+    width: 202px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    line-height: normal;
+    text-transform: uppercase;
+}
+/*Título del Sitio Web arriba*/
+
+.header-navbar img {
+    width: 100px;
+    flex-shrink: 0;
+    margin-left: 36px;
+}
+
+.navegador a {
+    margin-right: 50px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header-navbar img {   
+    width: 6.5rem;
+    margin-right: 36px;
+}
+
+.header-navbar a:hover {
+    color: #0af30a;
+}
+
+.section-header {
+    overflow: hidden;
+}
+
+.section-header img {
+    display: flex;
+    width: 1905px;
+    height: 576px;
+    margin-top: 96px;
+    align-items: center;
+}
+
+section {
+    height: 700px;
+}
